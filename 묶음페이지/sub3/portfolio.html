@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+    <script src="./js/modernizr.2.5.3.min.js"></script>
+    
+    <script src="./js/min1200px.js"></script>
+    <script src="./js/min600px.js"></script>
+    <script src="./js/max599px.js"></script>
+
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="./css/basic.css">
+    <link rel="stylesheet" href="./css/pro1.css">
+    <link rel="stylesheet" href="./css/pro2.css">
+    <link rel="stylesheet" href="./css/pro3.css">
+    <link rel="stylesheet" href="./css/prototal.css">
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Tourney:wght@100&display=swap');
+       
+    </style>
+
+    <script>
+        $(window).resize(function(){
+            location.reload();
+        });
+
+         $(function(){
+          $(".nav").hide();
+          $(".menu-trigger").click(function(){
+              $(".nav").animate({width:"toggle"},400);
+          });
+
+        
+      });
+
+      
+     
+
+
+    </script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="portfolio">
+            <div class="moving-circles3">
+                
+                
+                <div class="nav">
+                    <div class="navinbox">
+                        <div class="inbox1">
+                            <span>Coding</span>
+                        </div>
+                        <ul class="inbox2">
+                            <li onclick="location.href='../index.html'">MAIN</li>
+                            <li onclick="location.href='../sub1/introduce.html'">introduce</li>
+                            <li onclick="location.href='../sub2/skills.html'">Skills</li>
+                            <li onclick="location.href='../sub4/contact.html'">Contact</li>
+                        </ul>
+                    </div>
+                </div>
+
+                
+                    <div class="flipbook-viewport">
+                        <div class="container">
+                            <div class="flipbook">
+                                <div><img src="./img/show.jpg" alt="1"></div>
+
+                                <div><img src="./img/shopping.jpg" alt="2"></div>
+                                <div class="pageinbox">
+                                    <div class="innerbox1">
+                                        <div class="innerbox1_1">
+                                            <h1>Shoppingmall</h1><br>
+                                            <span>
+                                                HTML,CSS를 배우며 기초적으로만<br>
+                                                제작했던 쇼핑몰 홈페이지 입니다.<br>
+                                                처음으로 떠올랐던 악기가 주제로써<br>
+                                                이땐 위치도 잘 못잡아서 해맸던 기억이 나네요.
+                                            </span>
+                                        </div>
+                                        <div class="innerbox1_2">
+                                            <span onclick="window.open('https://shoppingming.netlify.app')">Main !</span>
+                                            <span onclick="window.open('https://shoppingming.netlify.app/sub%EC%A7%84.html')">Sub !</span>
+                                        </div>
+                                    </div>   
+                                </div>
+                                
+                                <div class="pageinbox change1">
+                                    <div class="innerbox1 ">
+                                        <div class="innerbox1_1">
+                                            <h1>PR page</h1><br>
+                                            <span>
+                                                2번째로 제작한 홈보페이지<br>
+                                                CSS로의 여러가지 이쁠것 같은 효과들을 생각해보며<br>
+                                                애니메이션도 넣어보고<br>
+                                                디자인적으로 ROCK의 특성을 살려보려 노력했던 페이지.
+                                            </span>
+                                        </div>
+                                        <div class="innerbox1_2">
+                                            <span onclick="window.open('https://rockming.netlify.app')">Main !</span>
+                                            <span onclick="window.open('https://rockming.netlify.app/sub/sub2.html')">Sub !</span>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="change1_1"><img src="./img/rock.jpg" alt="3"></div>
+                                
+                                <div><img src="./img/book.jpg" alt="4"></div>
+                                <div class="pageinbox">
+                                    <div class="innerbox1">
+                                        <div class="innerbox1_1">
+                                            <h1>AJAX / JSON page</h1><br>
+                                            <span>
+                                                display:flex; , OPEN API 를 사용하여<br>
+                                                위치를 마음대로 정확하게 잡을수 있을 뿐더러<br>
+                                                간단하게 만들수 있는 도서 사이트를<br>
+                                                오마주하여 제작한 interpark book<br>
+                                                shout out interpark !
+                                            </span>
+                                        </div>
+                                        <div class="innerbox1_2">
+                                            <span onclick="window.open('https://bookstoreming.netlify.app')">Main !</span>
+                                            <span onclick="window.open('https://bookstoreming.netlify.app/sub/sub.html')">Sub !</span>
+                                        </div>
+                                    </div> 
+                                </div>
+                                
+                                <div class="pageinbox change2">
+                                    <div class="innerbox1">
+                                        <div class="innerbox1_1">
+                                            <h1>ETUDE HOUSE</h1><br>
+                                            <span>
+                                                반응형의 시작<br>
+                                                여러 Display로도 볼 수 있는 사이트 제작<br>
+                                                Javascript를 본격적으로 구상 할 뿐더러,<br>
+                                                Plugin과 여러 코드들은 해석하여<br>
+                                                입맛에 맞게 적용한 Ming !!<br>
+                                                shout out Etude !!
+                                                
+                                            </span>
+                                        </div>
+                                        <div class="innerbox1_2">
+                                            <span onclick="window.open('https://etudeming.netlify.app')">Main !</span>
+                                            <span onclick="window.open('https://etudeming.netlify.app/sub.html')">Sub !</span>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="change2_1"><img src="./img/etude.jpg" alt="5"></div>
+
+                                <div><img src="./img/diver.jpg" alt="6"></div>
+                                <div class="pageinbox">
+                                    <div class="innerbox1">
+                                        <div class="innerbox1_1">
+                                            <h1>FreeDivung PR page</h1><br>
+                                            <span>    
+                                                본격적 풀 페이지<br>                                          
+                                                매년 홈페이지의 추세를 보며<br>
+                                                인기가 많았던 홈페이지의 장점을 분석<br>
+                                                친구가 강사로 있는 Crazy Diver의 홈페이지를 제작<br>
+                                                shout out Hwani_Diver !!
+                                                
+                                            </span>
+                                        </div>
+                                        <div class="innerbox1_2">
+                                            <span onclick="window.open('https://freedivingming.netlify.app')">Main</span>
+                                            
+                                        </div>
+                                    </div> 
+                                </div>
+                                
+                                <div class="pageinbox change3">
+                                    <div class="innerbox1">
+                                        <div class="innerbox1_1">
+                                            <h1>SM Entertainment</h1><br>
+                                            <span>
+                                                배움과 적용의 집합체<br>
+                                                SM 엔터테인먼트 홈페이지의 리메이킹<br>
+                                                Javascript의 구성을 직접 짜고 적용<br>
+                                                하고 싶은 것, 생각한 대로 작업한 홈페이지<br>
+                                                shout out SM Entertainment !!
+                                            </span>
+                                        </div>
+                                        <div class="innerbox1_2">
+                                            <span onclick="window.open('https://smenterming.netlify.app')">Main !</span>
+                                            <span onclick="window.open('https://smenterming.netlify.app/sub/sub.html')">Sub !</span>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="change3_1"><img src="./img/sm.jpg" alt="7"></div>
+
+                                <div><img src="./img/team.jpg" alt="8"></div>
+                                <div class="pageinbox">
+                                    <div class="innerbox1">
+                                        <div class="innerbox1_1">
+                                            <h1>Event Banner</h1><br><br>
+                                            <span>
+                                                팀 작업으로 장으로써 제작된 우리의 페이지<br>
+                                                유효성 검사 적용<br>
+                                                모두의 의견이 수용할 수 있는 장점만 모아 놓은 집합체 <br>
+                                                shout out Our team !!
+                                            </span>
+                                        </div>
+                                        <div class="innerbox1_2">
+                                            <span onclick="window.open('https://kinggodonepage.netlify.app')">Main !</span>
+                                            <span onclick="window.open('https://kinggodonepage.netlify.app/login/login.html')">Sub !</span>
+                                        </div>
+                                    </div> 
+                                </div>
+                                
+                                <div style="background-image:url(./img/gall.jpg)"></div>     
+                                
+                            </div>
+
+                            <div class="hidden5"><span>사이즈 엄청 작을 때만 보이는 hidden 이스터에그~!!</span></div>
+                                <div class="hidden5"><span>진짜 이정도 까지 줄였으면 제가 누군지 보고 싶어질 겁니다.</span></div>
+                                <div class="hidden5"><span>아니라구요 ? 집가면서 생각날텐데 ~ 집가서 밥먹고 씻고 누워있을때 생각 날텐데 ~</span></div>
+                                <div class="hidden5"><span>아니라구요 ? 벌써 중독 되었을텐데 ?!?!</span></div>
+                                <div class="hidden5"><span>이게 제 매력 입니다.</span></div>
+                                <div class="hidden5"><span>끝난줄 알았죠 ?? 혹시 더 줄이셨나요 ??</span></div>
+                                <div class="hidden5"><span>그럼 제 매력에 빠지신겁니다. 큰일났네 큰일났어 ~</span></div>
+                                <div class="hidden5"><span>아직 볼꺼 많으니까 메뉴로 이동하세요 !!</span></div>
+                        </div>
+               
+
+                <a class="menu-trigger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </a>
+
+            </div>
+
+           
+            
+        </div>
+    </div>
+    
+    <script>
+        $(function () {
+            Dots3.generate({ speed: 20000 });
+        });
+
+        var burger = $('.menu-trigger');
+
+        burger.each(function (index) {
+            var $this = $(this);
+
+            $this.on('click', function (e) {
+                e.preventDefault();
+                $(this).toggleClass('active-' + (index + 1));
+
+            })
+        });
+
+     
+
+
+    </script>
+    <script src="./js/jquery.flying-circles3.js"></script>
+
+</body>
+</html>

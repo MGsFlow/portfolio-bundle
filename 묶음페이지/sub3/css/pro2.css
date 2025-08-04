@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+@media (min-width:600px) and (max-width:1199px){
+    .wrap{width: 100vw; height: 100vh; background-color: black; overflow: hidden;}
+    .nav{width: 100vw; height: 100vh; background-color: black; position: fixed; z-index: 9998; text-align: center;}
+    .navinbox{width: 100%; height: 100%;}
+    .inbox1{width: 100%; height: 20%;  display: flex; flex-wrap: wrap; justify-content: center;  }
+    .inbox1 span{overflow: hidden; width: 100%; height: 100%; font-size: 10vmin; color: lightyellow;  animation-duration: 3s; animation-name: rainbow; animation-iteration-count: infinite;}
+    .inbox2{width: 100%; height: 80%;  display: flex; flex-wrap: wrap; justify-content: center; align-content: space-around;}
+    .inbox2 li{width: 100%; font-size: 6vmin; color: white; text-align: center; cursor: pointer; }
+    .inbox2 li:nth-of-type(1):hover{ color: #ff2a2a; transition: 2s;}
+    .inbox2 li:nth-of-type(2):hover{ color: #ffc52a; transition: 2s;}
+    .inbox2 li:nth-of-type(3):hover{ color: #2a89ff; transition: 2s;}
+    .inbox2 li:nth-of-type(4):hover{ color: #6b2aff; transition: 2s;}
+
+
+    .flipbook img{width: 100%; height: 100%;}
+    .pageinbox{width: 100%; height: 100%; display: flex; flex-wrap: wrap; justify-content: center; align-content: center; background-color: #fef1e1;}
+    .innerbox1{width: 80%; height: 60%; }
+    .innerbox1_1{width: 100%; height: 80%;  text-align: center;}
+    .innerbox1_1 h1{ font-family: "fontR"; font-size: 4vmin;}
+    .innerbox1_1 span{font-family: "fontR"; font-size: 1.5vmin;}
+    .innerbox1_2{width: 100%; height: 20%; display: flex; flex-wrap: wrap; justify-content: center; align-content: center;}
+    .innerbox1_2 span{cursor: pointer; font-family: "fontR"; font-size: 2.5vmin; width: 58%; margin-top: 10px; height: 60%; background-color: black; color: white; line-height: 60px; border: 1px solid black; border-radius: 20px; text-align: center;}
+    .innerbox1_2 span:hover{color: black; background-color: white;  border: 1px solid white; transition: 1s;}
+    .hidden5{display: none;}
+
+
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="./css/contacttotal.css">
+    <link rel="stylesheet" href="./css/contact1.css">
+    <link rel="stylesheet" href="./css/contact2.css">
+    <link rel="stylesheet" href="./css/contact3.css">
+    <link rel="stylesheet" href="./css/contact4.css">
+
+    <script src="./js/contact.js"></script>
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Tourney:wght@100&display=swap');
+        
+
+        
+       
+    </style>
+
+    <script>
+
+        $(window).resize(function(){
+            location.reload();
+        });
+
+         $(function(){
+          $(".nav").hide();
+          $(".menu-trigger").click(function(){
+              $(".nav").animate({width:"toggle"},400);
+          });
+      });
+
+    </script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="contact">
+            <div class="moving-circles4">
+                <div class="nav">
+                    <div class="navinbox">
+                        <div class="inbox1">
+                            <span>CONTACT</span>
+                        </div>
+                        <ul class="inbox2">
+                            <li onclick="location.href='../index.html'">MAIN</li>
+                            <li onclick="location.href='../sub1/introduce.html'">Introduce</li>
+                            <li onclick="location.href='../sub2/skills.html'">Skills</li>
+                            <li onclick="location.href='../sub3/portfolio.html'">Coding</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="contactbox">
+                  <div class="contactbox1">
+                      <span class="hidden1">Are you contact me?</span>
+                      <span class="hidden2">Contact me?</span>
+                      <span class="hidden3">contact</span>
+                  </div>
+                  <div class="contactbox2">
+                    <div class="rollingbox">
+                        <div class="fronttext">
+                            <span>Hello !</span>
+                        </div>
+                        <div class="backtext">
+                            <span>안녕하세요 !</span>
+                        </div>
+                    </div>
+
+                    <div class="rollingbox">
+                        <div class="fronttext">
+                            <span>I'm webpublisher,</span>
+                        </div>
+                        <div class="backtext">
+                            <span>저는 웹퍼블리셔,</span>
+                        </div>
+                    </div>
+
+                    <div class="rollingbox">
+                        <div class="fronttext">
+                            <span>ming !</span>
+                        </div>
+                        <div class="backtext">
+                            <span>배민규 입니다.</span>
+                        </div>
+                    </div>
+
+                   
+                  </div>
+
+                  <div class="contactbox3">
+                      <div class="contactbutton1">
+                          <span onclick="copy()" class="updown">Email !</span>
+                      </div>
+                      <div class="contactbutton2">
+                          <span onclick="copy2()" class="updown">Phone !</span>
+                      </div>
+                  </div>
+                  <div class="contactbox4">
+                    <div class="rollingbox">
+                        <div class="fronttext">
+                            <span>enjoyed watching,</span>
+                        </div>
+                        <div class="backtext">
+                            <span>즐겁게 보셨다면,</span>
+                        </div>
+                    </div>
+
+                    <div class="rollingbox">
+                        <div class="fronttext">
+                            <span>Please contact !</span>
+                        </div>
+                        <div class="backtext">
+                            <span>연락주세요 !</span>
+                        </div>
+                    </div>
+
+                    <div class="rollingbox">
+                        <div class="fronttext">
+                            <span>Click to copy.</span>
+                        </div>
+                        <div class="backtext">
+                            <span>클릭시 제 정보가 복사 됩니다.</span>
+                        </div>
+                    </div>
+
+                  </div>
+                  <div class="contactbox5">
+                    <div class="contactbutton3">
+                        <span onclick="copy3()" class="updown">DM !</span>
+                    </div>
+                    <div class="contactbutton4">
+                        <span onclick="copy4()" class="updown">Kakao !</span>
+                    </div>
+                  </div>
+                </div>
+
+                <a class="menu-trigger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </a>
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="./js/jquery.flying-circles4.js"></script>
+
+</body>
+</html>
